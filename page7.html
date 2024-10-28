@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <!-- Menu superior com o logo e o botão "Doe agora" -->
+    <header class="top-bar">
+       <div class="logo" onclick="window.location.href='index.html'"><img src = "logo.png" height="80px" width="80px"></div>
+       <div class="logo" onclick="window.location.href='index.html'"><h1 class="logot">Passos de Inclusão</h1></div>
+       <button class="donate" onclick="window.location.href='page6.html'">Doe agora</button>
+   </header>
+   <nav class="bottom-menu">
+    <img class = "canto" src = "./ods4.png" height="15%" width="15%">
+    <ul class = "lista">
+      <li><a href="page3.html" class="one">Sobre</a></li>
+      <li><a href="page1.html" class="one">ODS 4</a></li>
+      <li><a href="page2.html" class="one">Acontece na Etec</a></li>
+      <li><a href="page5.html" class="one">Legislação</a></li>
+      <li><a href="page7.html" class="one">Contato</a></li>
+    </ul>
+</nav>
+
+<div class = "barra"></div>
+<section class="illustration">
+    
+   
+      <div class="cartao">
+        <h1>Formulário para contato</h1>
+    <form action="submit.php" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="comentario">Deixe Seu Comentário Aqui:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="70" required></textarea><br><br>
+ <form action="submit.php" method="post">
+        <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+        </div><br><br>
+
+       
+        <input class="donate" type="submit" value="Enviar">
+    </form>
+    
+
+
+    
+</div>
+  </section>
+  
+   <footer class="">
+    <p><h3 class="ioio">Grupo 5 - @ Todos os direitos reservados!</h3></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
